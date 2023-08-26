@@ -13,10 +13,13 @@ while True:
         print("Congratulations! You have guesses correct number.")
         break
     elif guess > secret_number:
-        print("Your guess is high, please guess lower number.")
+        print("Your guess is higer.Please try again.")
     else:
-        print("Your guess is low, please guess high number. ")       
+        print("Your guess is lower. Please try again ")
 
+    
+    
+        
 
     
         
